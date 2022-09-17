@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>publikBerkarya</title>
+    <style>
+        body,html{
+            height: 100%;
+        }
+        body{
+            text-align: center;
+        }
+        .kotak{
+            height: 40px;
+            width: 40px;
+            margin: 15px auto;
+        }
+        .merah { background-color: red;}
+        .hijau { background-color: green;}
+        .biru { background-color: blue;}
+        .biru-muda{ background-color: lightblue;}
+    </style>
+</head>
+<body>
+    <h1>DOLANAN PEJET WARNA</h1>
+    <button type="button" id="satuWarna">KLIK KENE SAK WARNA</button>
+    <button type="button" id="acakWarna">KLIK KENE DINGGO ACAK WARNA</button>
+    <br><br><br>
+
+    <!--CLASS UNTUK MENANDAI UMUM SEDANGKAN ID UNTUK MENANDAI KHUSUSS-->
+    <!--DIV ADLH WADAH DALAM HTML DAN UNTUK MENANDAI-->
+    <div class="kotak merah"></div>
+    <input type="range" name="wMerah">
+
+    <div class="kotak hijau"></div>
+    <input type="range" name="wHijau">
+
+    <div class="kotak biru"></div>
+    <input type="range" name="wBiru">
+    
+
+
+
+<script src="gemWarna.js"></script>
+</body>
+</html>
